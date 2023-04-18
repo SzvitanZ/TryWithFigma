@@ -1,0 +1,226 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+
+
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 180px;
+height: 140px;
+left: calc(50% - 180px/2 - 334px);
+top: calc(50% - 140px/2 - 96px);
+
+background: #D9D9D9;
+opacity: 0.25;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px 25px 0px 0px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 180px;
+height: 300px;
+left: 296px;
+top: 486px;
+
+background: #DADB96;
+border-radius: 0px 0px 25px 25px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: 338px;
+top: 478px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: calc(50% - 100px/2 - 334px);
+top: calc(50% - 40px/2 - 26px);
+
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 902px;
+height: 117px;
+left: 287px;
+top: 107px;
+
+background: #F5F1A5;
+border-radius: 30px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 180px;
+height: 140px;
+left: calc(50% - 180px/2 - 96px);
+top: calc(50% - 140px/2 - 96px);
+
+background: #D9D9D9;
+opacity: 0.25;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px 25px 0px 0px;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 180px;
+height: 300px;
+left: 534px;
+top: 486px;
+
+background: #DADB96;
+border-radius: 0px 0px 25px 25px;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: calc(50% - 100px/2 - 96px);
+top: calc(50% - 40px/2 - 26px);
+
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 180px;
+height: 140px;
+left: calc(50% - 180px/2 + 132px);
+top: calc(50% - 140px/2 - 96px);
+
+background: #D9D9D9;
+opacity: 0.25;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px 25px 0px 0px;
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 180px;
+height: 300px;
+left: 762px;
+top: 486px;
+
+background: #DADB96;
+border-radius: 0px 0px 25px 25px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: 804px;
+top: 478px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: calc(50% - 100px/2 + 132px);
+top: calc(50% - 40px/2 - 26px);
+
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 180px;
+height: 140px;
+left: calc(50% - 180px/2 + 370px);
+top: calc(50% - 140px/2 - 96px);
+
+background: #D9D9D9;
+opacity: 0.25;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px 25px 0px 0px;
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 180px;
+height: 300px;
+left: 1000px;
+top: 486px;
+
+background: #DADB96;
+border-radius: 0px 0px 25px 25px;
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: calc(50% - 100px/2 + 370px);
+top: calc(50% - 40px/2 - 26px);
+
+background: #FFFFFF;
+border-radius: 25px;
